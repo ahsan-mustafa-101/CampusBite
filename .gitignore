@@ -1,0 +1,28 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Build Files
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+wheels/
+
+# Logs
+*.log
+logs/
+
+# Deployment / Local Config
+.env.production
+.env.development
+docker-compose.override.yml
